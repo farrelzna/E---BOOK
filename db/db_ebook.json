@@ -1,0 +1,69 @@
+{
+    "books_categories": [
+        {
+            "name": "Fantasy",
+            "id": 1
+        },
+        {
+            "name": "Adventure",
+            "id": 2
+        },
+        {
+            "name": "Horor",
+            "id": 3
+        },
+        {
+            "name": "Comedy",
+            "id": 4
+        },
+        {
+            "name": "Romance",
+            "id": 5
+        },
+        {
+            "name": "Action",
+            "id": 6
+        }
+    ],
+
+    "books" : [
+        {
+            "id": 1,
+            "category_id": 1,
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "synopsis": "The Lord of the Rings is a series of three epic fantasy novels written by English author and scholar J. R. R. Tolkien."
+        },
+        {
+            "id": 2,
+            "category_id": 2,
+            "title": "Meet the Fellowship of the Ring",
+            "author": "Arthur Conan Doyle",
+            "synopsis": "Meet the Fellowship of the Ring is a novel by English author and scholar Arthur Conan Doyle."
+        },
+        {
+            "id": 3,
+            "category_id": 3,
+            "title": "Kingdom Under Fire",
+            "author": "J.R.R. Tolkien",
+            "synopsis": "Kingdom Under Fire is a novel by English author and scholar J. R. R. Tolkien."
+        }
+    ],
+    
+    "books_chapters" : [
+        {
+            "id": "1",
+            "book_id": 1,
+            "title": "The Fellowship of the Ring",
+            "content": "The Fellowship of the Ring is a novel by English author and scholar J. R. R. Tolkien."
+        }
+    ],
+
+    "book_reviews" : [
+        {
+            "id": 1,
+            "book_id": 1,
+            "total_stars": 5
+        }
+    ]
+}
